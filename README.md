@@ -30,3 +30,7 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+My asymptotic runtime in terms of the number of comparisions is $\Theta(n*n!)$ because it makes a comparision for every item in the list where any item in the list could be the biggest. 
+
+My asymptotic runtime in terms of the number of flips is $\Theta(2n)$ because we flip an array to put the biggest number on top and then again to put it where it needs to be in every iteration. 
+
