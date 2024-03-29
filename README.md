@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/-m0g1A8z)
 # Pancake Sort
 
 There is an abstract data type (ADT) called a *pancake array*, which provides
@@ -28,4 +29,8 @@ element into its correct position.
 What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
+
+My asymptotic runtime in terms of the number of comparisions is $\Theta(n^2)$ because it makes a comparision for every item in the list inside a for loop that runs for n. 
+
+My asymptotic runtime in terms of the number of flips is $\Theta(2n)$ because we flip an array to put the biggest number on top and then again to put it where it needs to be in every iteration of our for loop.
 
